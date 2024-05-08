@@ -7,7 +7,7 @@ h1, h2, h3 {
   font-weight: 200;
 }
 
-p {
+p, button {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 350;
 }
