@@ -23,10 +23,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col flex-wrap overflow-hidden">
-      <section className="section1 flex justify-end flex-wrap items-center bg-gradient-to-b from-[#fcfcec] bg-[#fcfbe9] sm:h-[35em] w-full relative">
+      <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative">
         <img src="https://i.ibb.co/s2TdyfZ/eurodatasim-Iphone-Blackcropped.png" alt="Iphone Black" className="h-[500px] w-fit absolute left-0 top-28 z-10 -translate-x-32 hidden sm:block"/> 
       <div className="flex flex-col gap-7 justify-end sm:mr-32 p-5 sm:p-0">
-        <h1 onClick={() => setNavn('Tom')}>Welcome to EURODATASIM</h1>
+        <h1 className="font">Welcome to EURODATASIM</h1>
         <p className="max-w-[45em]">Your gateway to seamless connectivity. We specialize in cutting-edge eSIM cards, revolutionizing how you stay connected globally.
                                     With EURODATASIM, embrace the freedom of traveling without borders, effortlessly switching between carriers and data plans, all within a single device.
                                     Whether you're a frequent traveler, digital nomad, or simply seeking hassle-free connectivity, our eSIM solutions cater to your needs. Say goodbye to physical SIM cards and hello to unparalleled convenience.
@@ -34,7 +34,7 @@ export default function Home() {
           </p>
       </div>
       </section>
-      <section className="section2 flex flex-wrap justify-center bg-gradient-to-b from-[#fcfbe9] bg-[#fcf9de] sm:h-[35em] w-full relative">
+      <section className="section2 flex flex-wrap justify-center bg-[#E9E9E9] sm:h-[35em] w-full relative">
       <div className="flex flex-col gap-7 justify-center p-5 sm:p-0 text-center">
         <h2>We <span className="text-[65px]">revolutionize</span> the business</h2>
         <p className="max-w-[45em]">We revolutionize the business with EURODATASIM eSIM cards. Unlike traditional SIM cards, our eSIM technology eliminates the need for physical cards, offering unparalleled convenience.
@@ -44,7 +44,7 @@ export default function Home() {
           </p>
       </div>
       </section>
-      <section className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#fcf9de] bg-[#f3f0d0] sm:h-[35em] w-full relative">
+      <section className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#FBF6F5] bg-[#FDF0ED] sm:h-[35em] w-full relative">
        <img src="https://i.ibb.co/qJFgXTJ/eurodatasim-sim-card-cropped.png" alt="" className="h-[500px] w-fit absolute right-0 bottom-0 -rotate-90  hidden sm:block" />
       <div className="flex flex-col gap-7 justify-end sm:ml-32 p-5 sm:p-0">
         <h3>Experts in our services</h3>
@@ -55,18 +55,18 @@ export default function Home() {
           Experience the ease and reliability of EURODATASIM, your ultimate solution for global connectivity.
           </p>
           
-          <button onClick={() => setModal(true)} className="bg-[#e0daa5] w-fit p-3 rounded-md font-normal hover:scale-110 transition-all">What countries is zone 1?</button>
+          <button onClick={() => setModal(true)} className="bg-[#E9E9E9] w-fit p-3 rounded-md text-[#939191] font-bold hover:scale-110 transition-all">What countries is zone 1?</button>
 
       {
         modal && (
-    <div className="fixed inset-0 m-auto p-3 rounded-md w-fit h-fit z-50 bg-gradient-to-b border-[#e7dd85] border border-opacity-40 from-[#fffde6] bg-[#e0daa5] bg-opacity-95">
-      <h3 className="underline underline-offset-4 decoration-2 text-center">Zone 1 includes</h3>
+    <div className="fixed inset-0 m-auto p-3 rounded-md w-fit h-fit z-50 border-[#E9E9E9] border bg-[#F7F7F7] bg-opacity-95">
+      <h3 className="underline underline-offset-4 decoration-2 text-center">Zone 1 includes:</h3>
       <p className="font-bold mb-1 text-center">Portugal - France - Italy - Germany - United Kingdom</p>
       <p className="font-bold mb-1 text-center">Belgium - Netherlands - Luxembourg - Switzerland</p>
       <p className="font-bold mb-1 text-center">Ireland - Greece - Denmark - Sweden - Finland - Austria</p>
       <p className="font-bold text-center">Norway - Iceland - Andorra - Monaco - Liechtenstein</p>
       <div className="flex justify-center">
-      <button onClick={() => setModal(false)} className="bg-[#f3f0d0] font-medium w-fit p-2 rounded-md hover:scale-110 transition-all mt-4">Close</button>
+      <button onClick={() => setModal(false)} className="bg-[#E9E9E9] font-bold w-fit p-2 rounded-md hover:scale-110 transition-all mt-4">Close</button>
       </div>
      </div>
      
@@ -77,7 +77,7 @@ export default function Home() {
 
       </div>
       </section>
-      <section className="section2 flex flex-wrap justify-end items-center bg-gradient-to-b from-[#f3f0d0] bg-[#ebe7bf] sm:h-[35em] w-full relative">
+      <section className="section2 flex flex-wrap justify-end items-center bg-[#CACACA] sm:h-[35em] w-full relative">
       <img src="https://i.ibb.co/bJ1Lkrt/Iphone-headphones-eurodatasim.png" alt="" className="h-[500px] w-fit absolute ml-5 translate-y-24 left-0 bottom-0 -translate-x-40 hidden sm:block" />
       <div className="flex flex-col gap-7 justify-end sm:mr-32 p-5 sm:p-0">
         <h3>A safe connection - everytime</h3>
@@ -89,9 +89,9 @@ export default function Home() {
           </p>
       </div>
       </section>
-      <footer className="w-full h-[10em] bg-gradient-to-b from-[#ebe7bf] bg-[#c6bf86]"> 
+      <footer className="w-full h-[5em] bg-[#FFFFFF] relative"> 
       
-      <div className="w-full h-fit flex justify-center bg-[#f2efdf] bottom-44">
+      <div className="w-full h-fit absolute flex justify-center bg-[#FFFFFF] bottom-0">
       <p className="">Copyright - EURODATASIM [2024] </p>
       </div>
       </footer>
