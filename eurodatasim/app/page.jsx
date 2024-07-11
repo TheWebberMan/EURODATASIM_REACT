@@ -22,27 +22,183 @@ export default function Home() {
 
 
   return (
-    <main className="min-h-screen flex flex-col flex-wrap overflow-hidden">
-      <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative">
+    <main className="min-h-screen flex flex-col flex-wrap overflow-hidden max-w-[1800px] m-auto">
+      <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative sm:mb-0 mb-10">
         <img src="https://i.ibb.co/s2TdyfZ/eurodatasim-Iphone-Blackcropped.png" alt="Iphone Black" className="h-[500px] w-fit absolute left-0 top-28 z-10 -translate-x-32 hidden sm:block"/> 
-      <div className="flex flex-col gap-7 justify-end sm:mr-32 p-5 sm:p-0">
-        <h1 className="font">Welcome to EURODATASIM</h1>
-        <p className="max-w-[45em]">Your gateway to seamless connectivity. We specialize in cutting-edge eSIM cards, revolutionizing how you stay connected globally.
+      <div className="flex flex-col gap-7 justify-end lg:mr-32 sm:p-5">
+        <h1 className="sm:text-[55px] text-[50px] max-w-[90%] sm:m-0 m-auto">Welcome to EURODATASIM</h1>
+        <p className="sm:max-w-[45em] max-w-[90%] m-auto">Your gateway to seamless connectivity. We specialize in cutting-edge eSIM cards, revolutionizing how you stay connected globally.
                                     With EURODATASIM, embrace the freedom of traveling without borders, effortlessly switching between carriers and data plans, all within a single device.
                                     Whether you're a frequent traveler, digital nomad, or simply seeking hassle-free connectivity, our eSIM solutions cater to your needs. Say goodbye to physical SIM cards and hello to unparalleled convenience.
                                     Explore our range of eSIM cards today and unlock a world of limitless possibilities with EURODATASIM.
           </p>
       </div>
       </section>
-      <section className="section2 flex flex-wrap justify-center bg-[#E9E9E9] sm:h-[35em] w-full relative">
-      <div className="flex flex-col gap-7 justify-center p-5 sm:p-0 text-center">
-        <h2>We <span className="text-[65px]">revolutionize</span> the business</h2>
-        <p className="max-w-[45em]">We revolutionize the business with EURODATASIM eSIM cards. Unlike traditional SIM cards, our eSIM technology eliminates the need for physical cards, offering unparalleled convenience.
+      <section className="section2 flex flex-wrap justify-center bg-[#E9E9E9] sm:h-auto w-full relative">
+      <div className="flex flex-col gap-7 justify-center p-5 sm:p-0 text-center ">
+        <h2 className=" m-auto">We <span className="sm:text-[65px] sm:font-light font-medium">revolutionize</span> the business</h2>
+        <p className="sm:max-w-[45em] max-w-[90%] m-auto">We revolutionize the business with EURODATASIM eSIM cards. Unlike traditional SIM cards, our eSIM technology eliminates the need for physical cards, offering unparalleled convenience.
         Say goodbye to swapping cards or being tied to a single carrier. With EURODATASIM, enjoy seamless global connectivity, effortlessly switch between networks, and manage multiple numbers on a single device.
         Experience the freedom of travel without borders and the flexibility to choose the best data plans anywhere, anytime.
         EURODATASIM eSIM cards: the smart choice for modern connectivity, empowering your digital lifestyle.
           </p>
       </div>
+
+<div className="flex w-full justify-center gap-10 flex-wrap my-14">
+  
+  <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
+
+   <div className="text-center">
+    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
+     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
+    </div>
+    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
+   </div>
+<div>
+   <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
+    <p className="text-right col-span-1 row-span-2 text-[50px] font-extrabold">29</p>
+    <p className="max-h-[20px] mt-4 font-extrabold">'00</p>
+    <p className="max-h-[25px] font-extrabold">€/month</p>
+   </div>
+   <p className="-translate-y-[10px]">Without permanency</p>
+   </div>
+
+   <div className="w-[250px] min-h-[48px] h-[48px] text-center bg-slate-500 rounded-md flex items-center justify-center">
+    <p className="text-white font-medium">View plan</p>
+   </div>
+
+   <div className="flex flex-col gap-5">
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
+      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
+      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
+       <div className="flex flex-col">
+        <p className="w-fit font-bold">Registration + Installation</p>
+        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
+        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
+       </div>
+    </div>
+
+    <div className="w-[130px] h-[1px] bg-[#aaa] m-auto mt-5"></div>
+   <div className="text-center">
+    <p className=" text-[#aaa] font-medium">Do you want mobile phone?</p>
+    <a href=""><p className=" font-bold text-[#11abc2]">Configure your plan and saves</p></a>
+   </div>
+  </div>
+   
+ </div>
+ 
+ <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
+
+   <div className="text-center">
+    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
+     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
+    </div>
+    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
+   </div>
+<div>
+   <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
+    <p className="text-right col-span-1 row-span-2 text-[50px] font-extrabold">29</p>
+    <p className="max-h-[20px] mt-4 font-extrabold">'00</p>
+    <p className="max-h-[25px] font-extrabold">€/month</p>
+   </div>
+   <p className="-translate-y-[10px]">Without permanency</p>
+   </div>
+
+   <div className="w-[250px] min-h-[48px] h-[48px] text-center bg-slate-500 rounded-md flex items-center justify-center">
+    <p className="text-white font-medium">View plan</p>
+   </div>
+
+   <div className="flex flex-col gap-5">
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
+      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
+      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
+       <div className="flex flex-col">
+        <p className="w-fit font-bold">Registration + Installation</p>
+        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
+        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
+       </div>
+    </div>
+
+    <div className="w-[130px] h-[1px] bg-[#aaa] m-auto mt-5"></div>
+   <div className="text-center">
+    <p className=" text-[#aaa] font-medium">Do you want mobile phone?</p>
+    <a href=""><p className=" font-bold text-[#11abc2]">Configure your plan and saves</p></a>
+   </div>
+  </div>
+   
+ </div>
+
+ <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
+
+   <div className="text-center">
+    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
+     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
+    </div>
+    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
+   </div>
+  <div>
+   <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
+    <p className="text-right col-span-1 row-span-2 text-[50px] font-extrabold">29</p>
+    <p className="max-h-[20px] mt-4 font-extrabold">'00</p>
+    <p className="max-h-[25px] font-extrabold">€/month</p>
+   </div>
+   <p className="-translate-y-[10px]">Without permanency</p>
+   </div>
+
+   <div className="w-[250px] min-h-[48px] h-[48px] text-center bg-slate-500 rounded-md flex items-center justify-center">
+    <p className="text-white font-medium">View plan</p>
+   </div>
+
+   <div className="flex flex-col gap-5">
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
+      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
+      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
+    </div>
+
+    <div className="flex gap-4">
+      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
+       <div className="flex flex-col">
+        <p className="w-fit font-bold">Registration + Installation</p>
+        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
+        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
+       </div>
+    </div>
+
+    <div className="w-[130px] h-[1px] bg-[#aaa] m-auto mt-5"></div>
+   <div className="text-center">
+    <p className=" text-[#aaa] font-medium">Do you want mobile phone?</p>
+    <a href=""><p className=" font-bold text-[#11abc2]">Configure your plan and saves</p></a>
+   </div>
+  </div>
+
+ </div>
+
+
+</div>
+
       </section>
       <section className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#FBF6F5] bg-[#FDF0ED] sm:h-[35em] w-full relative">
        <img src="https://i.ibb.co/qJFgXTJ/eurodatasim-sim-card-cropped.png" alt="" className="h-[500px] w-fit absolute right-0 bottom-0 -rotate-90  hidden sm:block" />
