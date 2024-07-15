@@ -49,10 +49,10 @@ export default function Home() {
   <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
 
    <div className="text-center">
-    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
-     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
+    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-2 px-5 ">
+     <p className="text-white font-bold text-[16px]">POPULAR</p>
     </div>
-    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
+    <h2 className=" m-auto font-extrabold text-[40px] mt-2">Unltd. Spanish calls</h2>
    </div>
 <div>
    <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
@@ -70,20 +70,20 @@ export default function Home() {
    <div className="flex flex-col gap-5">
     <div className="flex gap-4">
       <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
-      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
+      <p className="w-fit font-bold">25 GB data<span className="block font-normal"> In Spain</span></p>
     </div>
 
     <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
-      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
+      <img className="h-[40px]" src="https://i.ibb.co/n7GFJj1/2207360-200-1.png" alt="" />
+      <p className="w-fit font-bold">16 GB data <span className="block font-normal">Europe zone 1</span></p>
     </div>
 
     <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
+      <img className="h-[33px]" src="https://i.ibb.co/T1Xp7mk/downloadsms-2.png" alt="" />
        <div className="flex flex-col">
-        <p className="w-fit font-bold">Registration + Installation</p>
-        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
-        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
+        <p className="w-fit font-bold">1000 Free SMS</p>
+        
+        <p className="">in Spain </p>
        </div>
     </div>
 
@@ -96,13 +96,10 @@ export default function Home() {
    
  </div>
  
- <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
+ <div className=" bg-white w-[378px] h-[650px] flex flex-col gap-4 p-8 rounded-lg items-center">
 
    <div className="text-center">
-    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
-     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
-    </div>
-    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
+    <h2 className=" m-auto font-extrabold text-[40px] mt-2">National Spain</h2>
    </div>
 <div>
    <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
@@ -119,21 +116,21 @@ export default function Home() {
 
    <div className="flex flex-col gap-5">
     <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
-      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
+      <img className="h-[40px]" src="https://i.ibb.co/F5BQvCz/download.png" alt="" />
+      <p className="w-fit font-bold">Roaming <span className="block font-normal">4G / 5G</span></p>
     </div>
 
     <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
-      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
+      <img className="h-[35px]" src="https://i.ibb.co/QkfCBym/download-1.png" alt="" />
+      <p className="w-fit font-bold">No Data Limitation <span className="block font-normal">ZERO reduction in speed</span></p>
     </div>
 
     <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
+      <img className="h-[40px]" src="https://i.ibb.co/NSXSSPb/467978-200.png" alt="" />
        <div className="flex flex-col">
-        <p className="w-fit font-bold">Registration + Installation</p>
-        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
-        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
+        <p className="w-fit font-bold">Contract</p>
+        
+        <p className="">No binding period </p>
        </div>
     </div>
 
@@ -146,56 +143,52 @@ export default function Home() {
    
  </div>
 
- <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
+ <div className=" bg-white w-[378px] h-[650px] flex flex-col gap-4 p-8 rounded-lg items-center">
 
-   <div className="text-center">
-    <div className="bg-slate-500 rounded-[16px] w-fit m-auto text-center py-1 px-5 ">
-     <p className="text-white font-bold text-[16px]">100 Mb before <span className="block font-light text-[14px]">more speed, same price</span></p>
-    </div>
-    <h2 className=" m-auto font-extrabold text-[40px] mt-2">300 Megabit</h2>
-   </div>
-  <div>
-   <div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
-    <p className="text-right col-span-1 row-span-2 text-[50px] font-extrabold">29</p>
-    <p className="max-h-[20px] mt-4 font-extrabold">'00</p>
-    <p className="max-h-[25px] font-extrabold">€/month</p>
-   </div>
-   <p className="-translate-y-[10px]">Without permanency</p>
-   </div>
+<div className="text-center">
+ <h2 className=" m-auto font-extrabold text-[40px] mt-2">Europe Zone 1</h2>
+</div>
+<div>
+<div className="grid grid-cols-2 grid-rows-2 gap-x-1 max-h-[70px]">
+ <p className="text-right col-span-1 row-span-2 text-[50px] font-extrabold">29</p>
+ <p className="max-h-[20px] mt-4 font-extrabold">'00</p>
+ <p className="max-h-[25px] font-extrabold">€/month</p>
+</div>
+<p className="-translate-y-[10px]">Without permanency</p>
+</div>
 
-   <div className="w-[250px] min-h-[48px] h-[48px] text-center bg-slate-500 rounded-md flex items-center justify-center">
-    <p className="text-white font-medium">View plan</p>
-   </div>
+<div className="w-[250px] min-h-[48px] h-[48px] text-center bg-slate-500 rounded-md flex items-center justify-center">
+ <p className="text-white font-medium">View plan</p>
+</div>
 
-   <div className="flex flex-col gap-5">
-    <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/mFCNmVN/2876882.png" alt="" />
-      <p className="w-fit font-bold">300 MB optic fiber <span className="block font-normal">Symmetrical</span></p>
-    </div>
-
-    <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/hZkSnJb/purepng-com-black-phonephoneconversationwire-communicationtelephonecablestransmissionblack-142152658.png" alt="" />
-      <p className="w-fit font-bold">Landline Telephony <span className="block font-normal">with calls for 2,4 cent/min</span></p>
-    </div>
-
-    <div className="flex gap-4">
-      <img className="h-[40px]" src="https://i.ibb.co/6HfbS6X/House-4.png" alt="" />
-       <div className="flex flex-col">
-        <p className="w-fit font-bold">Registration + Installation</p>
-        <div className="bg-[#ccf1d2] w-fit py-[3px] px-[6px] rounded-lg font-bold text-[#1dae3a]">Offer</div>
-        <p className="font-bold">Free <span className="font-normal line-through text-[#aaa]">150€</span></p>
-       </div>
-    </div>
-
-    <div className="w-[130px] h-[1px] bg-[#aaa] m-auto mt-5"></div>
-   <div className="text-center">
-    <p className=" text-[#aaa] font-medium">Do you want mobile phone?</p>
-    <a href=""><p className=" font-bold text-[#11abc2]">Configure your plan and saves</p></a>
-   </div>
-  </div>
-
+<div className="flex flex-col gap-5">
+ <div className="flex gap-4">
+   <img className="h-[40px]" src="https://i.ibb.co/F5BQvCz/download.png" alt="" />
+   <p className="w-fit font-bold">Roaming <span className="block font-normal">4G / 5G</span></p>
  </div>
 
+ <div className="flex gap-4">
+   <img className="h-[35px]" src="https://i.ibb.co/QkfCBym/download-1.png" alt="" />
+   <p className="w-fit font-bold">No data limitation <span className="block font-normal">ZERO reduction in speed</span></p>
+ </div>
+
+ <div className="flex gap-4">
+   <img className="h-[40px]" src="https://i.ibb.co/NSXSSPb/467978-200.png" alt="" />
+    <div className="flex flex-col">
+     <p className="w-fit font-bold">Contract</p>
+     
+     <p className="">No binding period </p>
+    </div>
+ </div>
+
+ <div className="w-[130px] h-[1px] bg-[#aaa] m-auto mt-5"></div>
+<div className="text-center">
+ <p className=" text-[#aaa] font-medium">Do you want mobile phone?</p>
+ <a href=""><p className=" font-bold text-[#11abc2]">Configure your plan and saves</p></a>
+</div>
+</div>
+
+</div>
 
 </div>
 
