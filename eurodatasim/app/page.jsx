@@ -1,21 +1,10 @@
 'use client'
 
 import { useState } from "react";
+import Header from '../components/Header'; // Import the Header component
 
 export default function Home() {
-
-  /*const modal = document.querySelector('#modal');
-        const openModal = document.querySelector('.open-modal');
-        const closeModal = document.querySelector('.close-modal');
-
-        openModal.addEventListener('click', () => {
-          modal.showModal(); })
-
-          closeModal.addEventListener('click', () => {
-            modal.close(); }) */
-
-            const [modal, setModal] = useState(false);
-
+  const [modal, setModal] = useState(false);
           
 
             console.log(modal)
@@ -23,6 +12,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col flex-wrap overflow-hidden max-w-[1800px] m-auto">
+      <Header />
       <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative sm:mb-0 mb-10">
         <img src="https://i.ibb.co/s2TdyfZ/eurodatasim-Iphone-Blackcropped.png" alt="Iphone Black" className="h-[500px] w-fit absolute left-0 top-28 z-10 -translate-x-32 hidden sm:block"/> 
       <div className="flex flex-col gap-7 justify-end lg:mr-32 sm:p-5">
@@ -44,7 +34,7 @@ export default function Home() {
           </p>
       </div>
 
-<div className="flex w-full justify-center gap-10 flex-wrap my-14">
+<div id="products" className="flex w-full justify-center gap-10 flex-wrap my-14">
   
   <div className=" bg-white w-[378px] h-[730px] flex flex-col gap-4 p-8 rounded-lg items-center">
 
@@ -193,7 +183,7 @@ export default function Home() {
 </div>
 
       </section>
-      <section className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#FBF6F5] bg-[#FDF0ED] sm:h-[35em] w-full relative">
+      <section id="work" className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#FBF6F5] bg-[#FDF0ED] sm:h-[35em] w-full relative">
        <img src="https://i.ibb.co/qJFgXTJ/eurodatasim-sim-card-cropped.png" alt="" className="h-[500px] w-fit absolute right-0 bottom-0 -rotate-90  hidden sm:block" />
       <div className="flex flex-col gap-7 justify-end sm:ml-32 p-5 sm:p-0">
         <h3>Experts in our services</h3>
@@ -226,7 +216,7 @@ export default function Home() {
 
       </div>
       </section>
-      <section className="section2 flex flex-wrap justify-end items-center bg-[#CACACA] sm:h-[35em] w-full relative">
+      <section id="connection" className="section2 flex flex-wrap justify-end items-center bg-[#CACACA] sm:h-[35em] w-full relative">
       <img src="https://i.ibb.co/bJ1Lkrt/Iphone-headphones-eurodatasim.png" alt="" className="h-[500px] w-fit absolute ml-5 translate-y-24 left-0 bottom-0 -translate-x-40 hidden sm:block" />
       <div className="flex flex-col gap-7 justify-end sm:mr-32 p-5 sm:p-0">
         <h3>A safe connection - everytime</h3>
